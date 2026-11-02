@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111f2b">
+  <meta name="description" content="开启你的提瓦特性格之旅。七个地区、350 道原创情境题，在一场旅行中找到与你共鸣的原神角色。">
+  <title>提瓦特心途 · 原神角色性格测试</title>
+  <link rel="icon" href="./assets/compass.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="提瓦特心途首页"><img src="./assets/compass.svg" alt="" width="38" height="38"><span>提瓦特<span class="brand-light">心途</span><small>TEYVAT · INNER JOURNEY</small></span></a>
+    <nav aria-label="主导航"><a href="#/" data-nav="home" class="nav-link">探索地区</a><button class="nav-link" type="button" data-action="passport">旅行手册 <span id="passport-count">0 / 7</span></button><button class="icon-button" type="button" data-action="about" aria-label="关于测试">?</button></nav>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading"><img src="./assets/compass.svg" alt="" width="56" height="56"><p>正在铺开你的旅行地图…</p></div></main>
+  <footer class="site-footer"><span>愿你的每一种性格，都有落脚的地方。</span><span>原神同人企划 · 非官方 · 娱乐性格探索</span></footer>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请启用 JavaScript，以开启地区选择与性格测试。</p></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
