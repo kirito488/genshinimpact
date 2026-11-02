@@ -32,11 +32,11 @@ export const CHARACTERS_NODKRAI = [
     "asset": "Aino",
     "title": "点亮奇想的发明家",
     "traits": [
-      0.55,
-      0.45,
-      -0.65,
-      0.45,
-      0.95,
+      0.5,
+      0.5,
+      -0.8,
+      0.4,
+      1,
       0.6
     ],
     "tags": [
@@ -82,12 +82,12 @@ export const CHARACTERS_NODKRAI = [
     "asset": "Lauma",
     "title": "温柔而坚定的引路人",
     "traits": [
-      0.35,
-      0.95,
-      0.65,
-      0.7,
-      0.25,
-      0.25
+      0.45,
+      1,
+      0.5,
+      0.55,
+      0.3,
+      0.35
     ],
     "tags": [
       "温柔",
@@ -132,12 +132,12 @@ export const CHARACTERS_NODKRAI = [
     "asset": "Jahoda",
     "title": "机灵尽责的全能雇员",
     "traits": [
-      0.65,
-      0.4,
-      -0.5,
-      0.65,
-      0.85,
-      0.75
+      0.7,
+      0.35,
+      -0.35,
+      0.7,
+      0.8,
+      0.8
     ],
     "tags": [
       "机灵",
@@ -182,12 +182,12 @@ export const CHARACTERS_NODKRAI = [
     "asset": "Illuga",
     "title": "迎着黑夜前行的队长",
     "traits": [
-      0.5,
-      0.8,
-      0.8,
+      0.55,
       0.75,
+      0.85,
+      0.85,
       0.35,
-      0.2
+      0.25
     ],
     "tags": [
       "担当",

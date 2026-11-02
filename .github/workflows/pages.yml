@@ -56,4 +56,3 @@ jobs:
       - name: Deploy production artifact
         id: deployment
         uses: actions/deploy-pages@v4
-

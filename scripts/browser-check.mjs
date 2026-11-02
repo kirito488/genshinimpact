@@ -99,4 +99,3 @@ try{
   await writeFile(path.join(output,'browser-check.json'),JSON.stringify(report,null,2));
   console.log(`Browser checks passed: ${report.browsers.join(', ')}, ${report.layouts.length} layouts, seven widths, full portrait journeys.`);
 }finally{server.kill();}
-

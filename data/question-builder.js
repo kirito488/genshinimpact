@@ -3,7 +3,7 @@ export const QUESTION_AXES = ['social','care','order','drive','curiosity','auton
 const TYPES = ['scene','choice','scale','scene','multi','choice','scene','scale','rank','choice'];
 const AXES = [0,2,5,1,4,3,0,2,1,5,4,3,0,1,2,5,3,4,0,2,1,5,3,4,0,2,5,1,4,3,2,0,1,5,3,4,2,0,5,1,3,4,2,0,1,5,4,3,2,1];
 const ORDERS = [[0,2,1,3],[2,0,3,1],[1,3,0,2],[3,1,2,0]];
-const FREQUENCY = ['几乎不会','偶尔会','大约一半时候会','多数时候会','几乎每次都会'];
+const FREQUENCY = ['几乎不会','偶尔会','大约一半的时候会','多数时候会','几乎每次都会'];
 export function buildRegionQuestions(region, rows, seed) {
   if(rows.length!==50)throw new Error(`${region}: expected 50 authored scenarios`);
   return rows.map((row,index)=>{
